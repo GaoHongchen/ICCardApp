@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabWidget_HelpSupport</class>
+ <widget class="QTabWidget" name="TabWidget_HelpSupport">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1036</width>
+    <height>633</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabWidget</string>
+  </property>
+  <property name="currentIndex">
+   <number>1</number>
+  </property>
+  <widget class="QWidget" name="tab0">
+   <attribute name="title">
+    <string>软件使用帮助</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1011</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;                          《管理中心软件使用帮助》&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;目   录：&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;一、名词解释&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;二、业主卡的新卡发放&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;三、业主卡的数据变更&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;四、业主卡的充值&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;五、业主卡的遗失补办&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;六、管理人卡的新卡发放&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;七、管理人卡的数据变更&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;八、管理人卡的遗失补办&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;九、乘梯卡（业主卡或管理人卡）的启禁用操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十、设置控制的时间&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十一、设置按钮响应时间&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十二、设置访客按钮响应时间&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十三、电梯运行设置&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十四、刷卡记录读取操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十五、控制器信息读取操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十六、业主卡信息、管理人卡信息、收费记录等的统计、查询、报表输出操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十七、电梯管理操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十八、软件用户管理操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十九、通讯端口设置操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;二十、管理中心软件重新安装或者用户计算机重新安装操作系统时，数据库备份操作（必须进行，否则会造成数据库丢失）&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;========================================== 帮 助 说 明 ===========================================================&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;一、名词解释&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1、【业主卡】   &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    是乘梯卡，带有业主个人信息、用梯信息、用梯条件等数据的IC卡，该卡由管理系统发放，业主持有，做为乘坐电梯的钥匙，该卡主要发放对象为业主。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2、【管理人卡】 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    是乘梯卡，带有管理人个人信息、用梯信息、用梯条件等数据的IC卡。该卡由管理系统发放，管理人持有，做为乘坐电梯的钥匙。该卡主要发放对象为物业管理者或临时用梯者等。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;3、【启禁用卡】 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    是功能卡，对指定电梯的某些卡号或者房间编号的乘梯卡进行启用或禁用设置。进行了禁用设置后，对应的乘梯卡不可使用本梯，直到再次进行启用设置后才可继续使用。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;4、【时间设置卡】 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    是功能卡，对指定电梯的按钮响应时间、访客按钮响应时间、控制器当前时刻进行设置。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;5、【电梯运行设置卡】 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    是功能卡，对指定的电梯和楼层的运行方案进行设置，管理电梯某些楼层的可用时段和可用日期，灵活进行电梯运行的智能化管理。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;6、【数据读取卡】 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    是功能卡，可以对电梯的刷卡使用记录或电梯控制器的内部信息进行读取，使客户对控制器的使用情况和产品信息有全面的了解。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;7、【按钮响应时间】 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    指乘梯卡刷卡以后，允许用梯者按下选层按钮的时间，超过此时间后，按钮无效。单位：秒。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;8、【访客按钮响应时间】 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    指控制器接到访客指令后，返回底层，等待访客按下选层按钮的时间，超过此时间后，按钮无效。单位：秒。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;9、【控制器时间】 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    指控制器内部时钟当前的时刻，为：****年**月**日  **时**分。此时间是控制器控制逻辑、与时间相关的卡操作逻辑的基准，因此必须设置准确。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;10、【自动选层】 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;     刷卡以后，相应授权楼层自动选层，无需再进行手动按钮的操作。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;11、【手动选层】 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;     刷卡以后，相应楼层需再进行手动按钮选层。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;二、业主卡的新卡发放&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能项用于制作全新卡号的业主乘梯卡。在&amp;quot;基本信息&amp;quot;栏，输入业主姓名、房间编号、业主门牌、 卡号；选择卡类型、选层方式。在&amp;quot;乘梯信息&amp;quot;栏，选择可使用的电梯和相应的楼层，最多可选择三部可用电梯。如果需进行乘梯限制，则在&amp;quot;乘梯限制信息&amp;quot; 栏中点选相应的限制条件，如果需要限定业主卡的使用日期，则在&amp;quot;是否限定日期&amp;quot; 栏，点选&amp;quot;是&amp;quot;，并在可使用电梯的日期前勾选；如果不限定使用日期则点选&amp;quot;否&amp;quot;。如果需要限定业主卡的使用时段，则在&amp;quot;是否限定时段&amp;quot; 栏，点选&amp;quot;是&amp;quot;，并选择可以使用电梯的起始和结束时段；如果不限定使用时段则点选&amp;quot;否&amp;quot;。数据输入完毕后，点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据，此业主卡的所有信息会被存储在软件的业主卡数据库中。若要再次制作新卡，可点击&amp;quot;新输入&amp;quot;按钮，这时会自动生成一个新的可用卡号，可以重复以上步骤制作新卡。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;三、业主卡的数据变更&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能项用于对已发放的业主卡的数据信息进行变更。点击&amp;quot;读取卡信息&amp;quot;按钮，若被读取的卡是业主卡，则将卡信息全部显示在操作区，若是其他类型卡，则仅在信息反馈区进行显示。若被读取的卡是业主卡，则可以编辑卡上的数据，操作方式同【新卡发放】操作。点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据，此业主卡的所有信息会被存储在软件的业主卡数据库中。（注：只有读取卡信息成功，且读入的卡是业主卡，&amp;quot;数据写入&amp;quot;按钮才变为可点击，否则不可点击。）&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;四、业主卡的充值&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能项用于对已发放的是分层计费的业主卡进行充入金额操作。点击&amp;quot;读取卡信息&amp;quot;按钮，此时卡信息会显示在信息反馈区，若被读取的卡是分层计费的业主卡，则&amp;quot;数据写入&amp;quot;按钮变为可点击，输入要充入的金额后，点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;五、业主卡的遗失补办&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能项用于对丢失的业主卡，进行挂失补办，从数据库中查找到该业主卡的信息，按此信息，制作一张新卡，被挂失的卡将无效，无法再继续使用。点击&amp;quot;查找卡&amp;quot;按钮，会调出管理系统全部的业主卡数据信息，可根据业主提供的卡号、业主姓名、房间编号等相关信息查找到丢失的业主卡的数据，选中相应的业主卡，点&amp;quot;选择&amp;quot;按钮，则此业主卡的全部信息将被读进操作区。点击&amp;quot;补办&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    注：１）、遗失补办操作中，若业主卡是分层计费或限定次数，则卡上金额或乘坐次数将为零，需再进行充值或变更可乘坐次数的操作。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;        ２）、遗失补办操作中，读入到操作区的业主卡数据是不可以编辑的，仅供查看用。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;六、管理人卡的新卡发放&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能项用于制作全新卡号的管理人员乘梯卡。在&amp;quot;基本信息&amp;quot;栏，输入持卡人姓名、卡号；选择选层方式。在&amp;quot;乘梯信息&amp;quot;栏，选择用梯权限，若选择的是&amp;quot;指定电梯及楼层&amp;quot;，则还要选择可使用的电梯和相应的楼层，最多可选择三部电梯，如果限定乘梯次数，则在&amp;quot;是否限定次数&amp;quot; 栏，点选&amp;quot;是&amp;quot;，并输入允许乘梯的次数值；如果不限定乘梯次数点选&amp;quot;否&amp;quot;。如果限定使用期限，则在&amp;quot;是否限定期限&amp;quot; 栏，点选&amp;quot;是&amp;quot;，并选择卡乘梯有效期的起始和结束时间；如果不限定使用期限则点选&amp;quot;否&amp;quot;。如果限定使用日期，则在&amp;quot;是否限定日期&amp;quot; 栏，点选&amp;quot;是&amp;quot;，并在可使用电梯的日期前勾选；如果不限定使用日期则点选&amp;quot;否&amp;quot;。如果限定使用时段，则在&amp;quot;是否限定时段&amp;quot; 栏，点选&amp;quot;是&amp;quot;，并选择可以使用电梯的起始和结束时段；如果不限定使用时段则点选&amp;quot;否&amp;quot;。数据输入完毕后，点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据，此管理人卡的所有信息会被存储在软件的管理人卡数据库中。若要再次制作新卡，可点击&amp;quot;新输入&amp;quot;按钮，这时会自动生成一个新的可用卡号，可以重复以上步骤制作新卡。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;七、管理人卡的数据变更&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能项用于对已发放的管理人卡的数据信息进行变更。点击&amp;quot;读取卡信息&amp;quot;按钮，若被读取的卡是管理人卡，则将卡信息全部显示在操作区，若是其他类型卡，则仅在信息反馈区进行显示。若被读取的卡是管理人卡，则可以编辑卡上的数据，操作方式同【新卡发放】操作。点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据，此管理人卡的所有信息会被存储在软件的管理人卡数据库中。（注：只有读取卡信息成功，且读入的卡是管理人卡，&amp;quot;数据写入&amp;quot;按钮才变为可点击，否则不可点击。）&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;八、管理人卡的遗失补办&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能项用于对丢失的管理人卡，进行挂失补办，从数据库中查找到管理人卡的卡片信息，按此信息，制作一张新卡，被挂失的卡将无效，无法再继续使用。点击&amp;quot;查找卡&amp;quot;按钮，会调出管理系统全部的管理人卡数据信息，可根据持卡人提供的卡号、持卡人姓名等相关信息查找到丢失的管理人卡的数据，选中相应的管理人卡，点&amp;quot;选择&amp;quot;按钮，则此卡的全部信息将被读进操作区。点击&amp;quot;补办&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据。注：（遗失补办操作中，读入到操作区的管理人卡数据是不可以编辑的，仅供查看用。）&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;九、乘梯卡（业主卡或管理人卡）的启禁用操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能用于对拖欠物业费用户，或者某些不希望其再继续使用的管理人卡进行的启用/禁用操作。在导航栏点选&amp;quot;功能卡&amp;quot;，进入&amp;quot;启禁用卡&amp;quot;页面，在&amp;quot;操作规则&amp;quot;栏，选择是按房间编号进行启禁用操作，还是按照卡号进行启禁用操作。若按照房间编号操作，则启禁用设置对与房间编号相同（一个家庭）的卡均有效；若按照卡号操作，则需选择业主卡还是管理人卡，启禁用设置对与卡号相同的指定类型的卡有效，在&amp;quot;卡可用次数&amp;quot;栏，输入本启禁用卡可以刷卡的次数，此次数限制出于电梯管理安全考虑（即使本卡丢失也不会造成严重的后果），在&amp;quot;适用电梯&amp;quot;栏，选择本启禁用卡可以管理的电梯。在&amp;quot;启禁用信息&amp;quot;栏，输入房间编号（或卡号），并选择是对此房间编号（或卡号）启用还是禁用，一次最多可管理八个房间编号（或卡号）的启禁用。点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据。点击&amp;quot;读取卡信息&amp;quot;按钮，可读出卡内的信息，并显示在信息反馈区。卡片制作完成后，到对应的电梯上进行刷卡操作后，启禁用操作即开始生效。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注：1）、启禁用卡制作成功后，仅可对指定的电梯进行刷卡操作。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    2）、当成功刷卡次数达到卡可用次数后，卡片无效。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十、设置控制的时间&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能用于设置控制器当前的时刻，在导航栏点选&amp;quot;功能卡&amp;quot;，点击进入&amp;quot;时间设置卡&amp;quot;页面，在&amp;quot;卡可用次数&amp;quot;栏，输入本时间设置卡可以刷卡的次数，此次数限制出于电梯管理安全考虑（即使本卡丢失也不会造成严重的后果）。点选&amp;quot;控制器时间设置卡&amp;quot;，点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据。点击&amp;quot;读取卡信息&amp;quot;按钮，可读出卡内的信息，并显示在信息反馈区。卡片制作成功后，到电梯控制器上刷卡即可将时间设置进控制器中。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注：1）、如果默认当前的时间进行制卡，则到电梯处刷卡，会有个时间差的问题，制卡应将时间差考虑进去。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    2）、当成功刷卡次数达到卡可用次数后，卡片无效。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十一、设置按钮响应时间&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能用于设置刷卡后按钮输出保持的时间，在导航栏点选&amp;quot;功能卡&amp;quot;，点击进入&amp;quot;时间设置卡&amp;quot;页面，在&amp;quot;卡可用次数&amp;quot;栏，输入本时间设置卡可以刷卡的次数，此次数限制出于电梯管理安全考虑（即使本卡丢失也不会造成严重的后果）。点选&amp;quot;按钮响应时间设置卡&amp;quot;，输入欲设置的按钮的响应时间，点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据。点击&amp;quot;读取卡信息&amp;quot;按钮，可读出卡内的信息，并显示在信息反馈区。卡片制作成功后，到电梯控制器上刷卡即可将按钮响应时间设置进控制器中了。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注：1）、产品出厂时默认为5秒按钮响应时间，多数情况无需再进行设置&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    2）、当成功刷卡次数达到卡可用次数后，卡片无效。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十二、设置访客按钮响应时间&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能用于设置访客时开放给访客等待按键乘梯的时间，在导航栏点选&amp;quot;功能卡&amp;quot;，点击进入&amp;quot;时间设置卡&amp;quot;页面，在&amp;quot;卡可用次数&amp;quot;栏，输入本时间设置卡可以刷卡的次数，此次数限制出于电梯管理安全考虑（即使本卡丢失也不会造成严重的后果）。点选&amp;quot;访客按钮响应时间设置卡&amp;quot;，输入欲设置的访客按钮的响应时间，点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据。点击&amp;quot;读取卡信息&amp;quot;按钮，可读出卡内的信息，并显示在信息反馈区。卡片制作成功后，到电梯控制器上刷卡即可将访客按钮响应时间设置进控制器中了。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注：1）、产品出厂时默认为120秒访客按钮响应时间，多数情况无需再进行设置&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    2）、此功能需加装&amp;quot;访客联动控制器&amp;quot;时方为有效，否则无需设置&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    3）、当成功刷卡次数达到卡可用次数后，卡片无效。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十三、电梯运行设置&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;此功能用于设置指定电梯指定楼层的开放日期和时段，在导航栏点选&amp;quot;功能卡&amp;quot;，点击进入&amp;quot;电梯运行设置卡&amp;quot;页面，在&amp;quot;卡类型&amp;quot;栏，选择&amp;quot;禁用设置卡&amp;quot;或&amp;quot;禁用撤销卡&amp;quot;，在&amp;quot;卡可用次数&amp;quot;栏，输入本时间设置卡可以刷卡的次数，此次数限制出于电梯管理安全考虑（即使本卡丢失也不会造成严重的后果）。选择&amp;quot;禁用设置卡&amp;quot;则对指定电梯的指定楼层进行禁用时段和可用日期的设置；选择&amp;quot;禁用撤销卡&amp;quot;则对指定电梯的指定楼层进行全时段可用和全日期可用的设置。在&amp;quot;卡可用次数&amp;quot;栏，输入本电梯运行设置卡可以刷卡的次数，此次数限制出于电梯管理安全考虑（即使本卡丢失也不会造成严重的后果）。在&amp;quot;适用电梯&amp;quot;栏，选择本电梯运行设置卡欲管理的电梯。在&amp;quot;适用楼层&amp;quot;栏，选择本电梯运行设置卡欲管理的楼层。在&amp;quot;禁用时段&amp;quot;栏，进行电梯禁用时段的设置，在欲设置的禁用时段前进行勾选，然后设置后面的起始和截止时段，控制此时段内电梯不可运行，未勾选的禁用时段不起作用。在&amp;quot;可用日期&amp;quot;栏，进行电梯可运行日期的管理，在可运行的日期前勾选，未勾选的日期，电梯将不可运行。点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据。点击&amp;quot;读取卡信息&amp;quot;按钮，可读出卡内的信息，并显示在信&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;息反馈区。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注：1）、本功能多数应用于办公楼、政府机关等场合，小区物业多数无需进行设置。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    2）、当成功刷卡次数达到卡可用次数后，卡片无效。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十四、刷卡记录读取操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能用于对电梯的刷卡记录进行读取操作，在导航栏点选&amp;quot;功能卡&amp;quot;，点击进入&amp;quot;数据读取卡&amp;quot;页面，点选&amp;quot;刷卡记录读取卡&amp;quot;，在&amp;quot;卡可用次数&amp;quot;栏，输入本时间设置卡可以刷卡的次数，此次数限制出于电梯管理安全考虑（即使本卡丢失也不会造成严重的后果）。设置欲读取的刷卡记录的范围，点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据。点击&amp;quot;读取卡信息&amp;quot;按钮，可读出卡内的信息，并显示在信息反馈区。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注：1）、当成功刷卡次数达到卡可用次数后，卡片无效。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    2）、由于提取的数据量较大，传输需要一定的时间，操作者刷卡后，要等到提示音后再移开卡片，否则数据未传输完毕，会造成读取错误。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十五、控制器信息读取操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    此功能用于对控制器的当前时间、程序版本号等信息进行读取，在导航栏点选&amp;quot;功能卡&amp;quot;点击进入&amp;quot;数据读取卡&amp;quot;页面，点选&amp;quot;控制器信息读取卡&amp;quot;，在&amp;quot;卡可用次数&amp;quot;栏，输入本时间设置卡可以刷卡的次数，此次数限制出于电梯管理安全考虑（即使本卡丢失也不会造成严重的后果）。点击&amp;quot;数据写入&amp;quot;按钮进行写卡操作，之后会弹出操作结果信息，若操作成功，信息反馈区会显示写入到卡中的数据。点击&amp;quot;读取卡信息&amp;quot;按钮，可读出卡内的信息，并显示在信息反馈区。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注：当成功刷卡次数达到卡可用次数后，卡片无效。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十六、业主卡信息、管理人卡信息、收费记录等的统计、查询、报表输出操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    在导航栏点选&amp;quot;统计分析&amp;quot;，可分别进入&amp;quot;业主卡信息&amp;quot;、&amp;quot;管理人卡信息&amp;quot;、&amp;quot;收费记录&amp;quot;页面,所有本管理软件发放的业主卡、管理人卡、收费记录等都可在此进行信息查询、报表输出等操作。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十七、电梯管理操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    在导航栏点选&amp;quot;电梯管理&amp;quot;，在此可进行本管理中心管理下的电梯设置以及分层计费的收费标准的设置。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十八、软件用户管理操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    在导航栏点选&amp;quot;系统设置&amp;quot;，点选&amp;quot;软件用户管理&amp;quot;界面，此界面对本软件系统的使用者进行管理，可进行创建新用户，更改、删除用户等操作。点击用户列表中的用户记录条，则右侧&amp;quot;用户权限信息&amp;quot;会显示该用户的软件使用权限信息，被勾选的表明具有权限，未勾选的则不具有权限。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    点击&amp;quot;创建新用户&amp;quot;按钮，弹出创建新用户界面，填写用户信息、密码、填写找回密码答案、填写充值上限、勾选欲开通的的权限后，点击&amp;quot;确定&amp;quot;按钮,生成新软件用户，点击&amp;quot;取消&amp;quot;放弃操作。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    鼠标点中相应的用户记录条后，点击&amp;quot;更改用户信息&amp;quot;按钮，弹出更改用户信息界面，对欲更改的信息更改后后，点击&amp;quot;确定&amp;quot;按钮，确认更改操作，点击&amp;quot;取消&amp;quot;放弃操作。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    鼠标点中相应的用户记录条后，点击&amp;quot;删除用户&amp;quot;按钮，弹出删除确认对话框，点击&amp;quot;确定&amp;quot;按钮确认删除操作，点击&amp;quot;取消&amp;quot;放弃操作。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注：1）、&amp;quot;系统管理员&amp;quot;用户拥有所有权限，不可删除，应由最高权限的人拥有，初始密码为12345678，软件安装完成后，请务必修改此密码。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    2）、请谨慎创建软件用户。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    3）、创建新的软件用户时，对&amp;quot;功能卡&amp;quot;模块、&amp;quot;统计分析&amp;quot;模块、&amp;quot;电梯管理&amp;quot;模块、&amp;quot;系统设置&amp;quot;模块，请谨慎开通使用权限。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;十九、通讯端口设置操作&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    在导航栏点选&amp;quot;系统设置&amp;quot;，点选&amp;quot;通讯端口设置&amp;quot;界面，此界面用于与发卡器相连接的通讯端口及与远程监控相连接的端口进行设置。点选下拉列表，按照用户使用的电脑COMM端口号，设置对应的通讯端口号，点击&amp;quot;保存设置&amp;quot; 确认新设置。设置完成后需关闭软件，重新登录，新的端口设置才被启用。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注：1）、变更端口后，需重新登录软件，新的设置才被启用。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    2）、如果无远程监控功能，可无需设置远程通讯接口。&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;二十、管理中心软件重新安装或者用户计算机重新安装操作系统时，数据库备份操作（必须进行，否则会造成数据库丢失）&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    在导航栏点选&amp;quot;系统设置&amp;quot;，点选&amp;quot;数据库操作&amp;quot;界面，点击&amp;quot;导出数据库&amp;quot; 则系统当前的数据库将被导出到用户指定的目录下，保留此数据库。待管理中心软件重新安装完成后,将该文件存入软件安装目录下即可。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注：1）、用户计算机重新安装操作系统、或者本软件重新安装之前，请必须&amp;quot;导出数据库&amp;quot;操作，并妥善保存该文件，不要更改文件名。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;    2）、操作系统安装完毕或者本软件重新安装完成后，将该文件存入软件安装目录下。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab1">
+   <attribute name="title">
+    <string>厂家技术支持</string>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

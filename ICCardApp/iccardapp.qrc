@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/ToolbarIcons">
+        <file>Resources/administrator_72px.ico</file>
+        <file>Resources/remote_72px.ico</file>
+        <file>Resources/Statistics_72px.ico</file>
+        <file>Resources/Management_72px.ico</file>
+        <file>Resources/Help_72px.ico</file>
+        <file>Resources/exit_72px.ico</file>
+        <file>Resources/FuncCard_72px.ico</file>
+        <file>Resources/setting_72px.ico</file>
+        <file>Resources/connect_72px.ico</file>
+        <file>Resources/disconnect_72px.ico</file>
+        <file>Resources/users_72px.ico</file>
+    </qresource>
+    <qresource prefix="/AppIcon">
+        <file>Resources/AppIcon_ArchitectureBuilding_96px.ico</file>
+    </qresource>
+    <qresource prefix="/CSS">
+        <file>StyleSheet.qss</file>
+    </qresource>
+</RCC>

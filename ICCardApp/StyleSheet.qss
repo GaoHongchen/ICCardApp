@@ -1,0 +1,59 @@
+QTabWidget,QGroupBox,QLabel,QPushButton,QRadioButton,QLineEdit,QDateTimeEdit,
+QDateEdit,QTimeEdit,QTextBrowser,QComboBox,QCheckBox
+{
+    font:16px;
+}
+
+QGroupBox[objectName="objectGrpboxInfos"]
+{
+    background:rgb(0,128,128);
+    color:white;
+    border-radius:10px;
+}
+
+QToolBar
+{
+    background-color: rgb(150,200,250);
+}
+
+QToolButton
+{
+    width:96px;
+    border-radius:10px;
+}
+
+QToolButton:hover
+{
+    background-color: yellow;
+    border: 1px solid rgb(0,0,255);
+}
+
+QToolButton:checked
+{
+    border: 2px solid rgb(0,0,255);
+}
+
+QPushButton:hover
+{
+    background-color: green;
+}
+
+QPushButton[objectName="objectBtnReadCard"]:hover,
+QPushButton[objectName="objectBtnInitCard"]:hover
+{
+    background-color: yellow;
+}
+
+QPushButton[objectName="objectBtnReadCard"],
+QPushButton[objectName="objectBtnInitCard"]
+{
+    background-color: white;
+    color:rgb(0,0,255);
+    border-radius:10px;
+    font:20px;
+}
+
+QTextBrowser
+{
+    background-color: rgb(255,255,255);
+}
